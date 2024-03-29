@@ -1,0 +1,22 @@
+//Immediately Invoked Function Expression
+(function chai(){
+
+    //named IIFE
+    console.log(`DB CONNECTED`);
+})();   //this semicolon should be given so that it could recognise the end of the iife 
+
+
+//1st paranthesis show the function
+//2nd paranthesis show the execution
+
+
+
+( () =>{
+    //Unnamed IIFE
+    console.log(`DB CONNECTED TWO`);
+})();
+
+
+( (name) =>{
+    console.log(`DB CONNECTED TWO ${name}`);
+})('aman');
